@@ -1,11 +1,23 @@
 {
   "name": "pwa-test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "MarvelSQ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvelSQ/pwa.git"
+  },
+  "keywords": [
+    "pwa",
+    "service-worker"
+  ],
+  "bugs": {
+    "url": "https://github.com/MarvelSQ/pwa/issues"
+  },
+  "homepage": "https://github.com/MarvelSQ/pwa#readme",
+  "description": ""
 }
