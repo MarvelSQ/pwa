@@ -1,13 +1,14 @@
-console.log('sw.6.js loaded');
+console.log('sw.8.js loaded');
 
-var cacheStorageKey = 'minimal-pwa-6'
+var cacheStorageKey = 'minimal-pwa-8'
 
 var cacheList = [
   '/',
   "index.html",
   "index.js",
   "logo@2x.png",
-  'ad.json'
+  'ad.json',
+  'sw.8.js'
 ]
 
 self.addEventListener('install', e => {
