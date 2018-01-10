@@ -6,6 +6,7 @@ var cacheList = [
   "index.js",
   "logo@2x.png",
   'ad.json',
+  'register.js',
 ]
 
 self.addEventListener('install', e => {
@@ -17,7 +18,6 @@ self.addEventListener('install', e => {
 })
 
 self.addEventListener('activate', function(e) {
-  console.log('sw activate');
   e.waitUntil(
     Promise.all(
       [caches.keys().then(cacheNames => {

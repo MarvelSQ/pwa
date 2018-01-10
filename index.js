@@ -1,6 +1,5 @@
 console.log('index.js loaded');
 
-
 let root = document.getElementById('root');
 
 function genSpan(text) {
@@ -12,6 +11,5 @@ function genSpan(text) {
 root.append(genSpan('test'));
 
 fetch('ad.json').then(res=>{
-  console.log(res);
   return res.json();
 }).then(json=>console.log('json',json));
